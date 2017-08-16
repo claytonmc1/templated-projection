@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="assets/materialize/css/materialize.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -12,9 +13,111 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Título</h1>
+    <div class="wrapper">
+        <header class="header ">
+            <div class="container">
+                <div class="row valign-wrapper">
+                    <a href="#" class="logo col s9 m4"><strong>Projection</strong> <span>by TEMPLATED</span></a>
+                    <nav class="menu col m8 right-align">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Generic</a></li>
+                            <li><a href="">Elements</a></li>
+                        </ul>
+                    </nav>
+                    <i class="fa fa-bars fa-3x menu-bars col s3 right-align" aria-hidden="true"></i>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <h1>Welcome to Projection</h1>
+                    <ul class="projects">
+                        <li class="col s12 m4">
+                            <i class="fa fa-car fa-2x" aria-hidden="true"></i>
+                            <h3>Aliquam</h3>
+                            <p>Suspendisse amet utlamco</p>
+                        </li>
+                        <li class="col s12 m4">
+                            <i class="fa fa-camera fa-2x" aria-hidden="true"></i>
+                            <h3>Elementum</h3>
+                            <p>Class aptent taciti ad litora</p>
+                        </li>
+                        <li class="col s12 m4">
+                            <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
+                            <h3>Ultrices</h3>
+                            <p>Nulla vitae mauris non felis</p>
+                        </li>
+                    </ul>
+                    <footer>
+                        <input type="button" value="GET STARTED" class="btn-style">
+                    </footer>
+                </div>
+            </div>
+        </section>
+        <section class="main">
+            <div class="container">
+                <div class="row">
+                    <article class="main-first col s12 m6">
+                        <figure class="main-images">
+                            <img src="images/pic01.jpg" alt="">
+                        </figure>
+                        <header>
+                            <h3>Lorem ipsum dolor amet nullam</h3>
+                        </header>
+                        <p>Morbi in sem quis dui placerat ornare. Pellentesquenisi
+                            euismod in, pharetra a, ultricies in diam sed arcu. Cras
+                            consequat egestas augue vulputate.
+                        </p>
+                        <footer>
+                            <input type="button" value="Learn More">
+                        </footer>
+                    </article>
+                    <article class="main-second col s12 m6">
+                        <figure class="main-images">
+                            <img src="images/pic01.jpg" alt="">
+                        </figure>
+                        <header>
+                            <h3>Sed feugiat tempus asipicsing</h3>
+                        </header>
+                        <p>Pellentesque fermentum dolor. Aliquam quam lectus
+                            facilisis auctor, ultrices ut, elementum vulputate, nunc
+                            blandit ellenste egestagus commodo.
+                        </p>
+                        <footer>
+                            <input type="button" value="Learn More">
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <header><h3>Get in touch</h3></header>
+                    <form action="" method="post">
+                        <div class="fields col s12 m6">
+                            <label for="name">Name <input type="text" id="name"></label>
+                        </div>
+                        <div class="fields col s12 m6">
+                            <label for="email">Email <input type="text" id="email"></label>
+                        </div>
+                        <div class="fields col s12">
+                            <label for="message">Message <textarea name="message" id="message" cols="30" rows="10"></textarea></label>
+                        </div>
+                        <div class="send-form">
+                            <input type="button" value="Send Message" class="btn-style">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/materialize/js/materialize.js"></script>
-    
+
 </body>
 </html>

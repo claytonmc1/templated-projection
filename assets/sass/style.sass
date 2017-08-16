@@ -1,0 +1,84 @@
+html,
+body
+    font-family: Roboto
+    font-size: 10px
+    width: 100%
+
+.content
+    width: 1280px
+
+
+/*  Reset    */
+nav
+    background: none
+    box-shadow: none
+
+nav li a:hover
+    background: none
+
+.row
+    margin-bottom: 0
+
+h1
+    margin: 0
+
+/*  Header     */
+.header
+    background: #666676
+    padding: 1.5% 0 2.34% 0   /* 20px 30px*/
+    
+.header .container
+    border-bottom: 2px solid #81818d
+    padding-bottom: 1.5%  /* 20px */
+
+.logo
+    display: inline-block
+    font-size: 1.5em
+    color: #fff
+
+.logo span
+    font-weight: 300
+
+.menu
+    display: inline-block
+    width: 38.43%  /* 492px */
+
+.menu ul
+    display: inline-block
+    width: 43.08%  /* 212px */
+
+.menu ul li
+    width: 34.90%  /* 74px */
+
+.menu ul li a
+    font-size: 1.5em
+    font-weight: 300
+    padding: 0 0 0 27.02%  /* 20px */
+
+
+.menu-bars
+    display: none
+
+
+/*  Banner     */
+.banner
+    background: #666676
+    text-align: center
+    min-height: 31.25em  /* 400px */
+    height: 100%
+
+.projects li
+    display: inline-block
+    border-right: 2px solid #81818d
+
+.projects li:last-child
+    border-right: 0
+
+
+/*  Media Queries     */
+@media (max-width: 600px)
+    .menu
+        display: none
+
+    .menu-bars
+        display: block
