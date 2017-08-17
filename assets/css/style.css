@@ -24,7 +24,13 @@ h1 {
 /*  Header     */
 .header {
   background: #666676;
-  padding: 1.5% 0 2.34% 0; }
+  padding: 1.5% 0 2.34% 0;
+  background-image: url("../../images/banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative; }
 
 .header .container {
   border-bottom: 2px solid #81818d;
@@ -40,19 +46,15 @@ h1 {
 
 .menu {
   display: inline-block;
-  width: 38.43%; }
+  width: 67.42%; }
 
 .menu ul {
-  display: inline-block;
-  width: 43.08%; }
-
-.menu ul li {
-  width: 34.9%; }
+  display: inline-block; }
 
 .menu ul li a {
   font-size: 1.5em;
   font-weight: 300;
-  padding: 0 0 0 27.02%; }
+  padding: 0 0 0 2.31em; }
 
 .menu-bars {
   display: none; }
@@ -62,7 +64,34 @@ h1 {
   background: #666676;
   text-align: center;
   min-height: 31.25em;
-  height: 100%; }
+  height: 100%;
+  background-image: url("../../images/banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.banner .container {
+  padding-top: 3.12%; }
+
+.banner h1 {
+  font-size: 3.2em;
+  color: #fff; }
+
+.projects {
+  padding: 2.34% 0; }
+
+.projects .fa {
+  color: #6cc091; }
+
+.projects h3 {
+  font-size: 2.0em;
+  color: #ffffff; }
+
+.projects p {
+  font-size: 1.2em;
+  color: #acafb1; }
 
 .projects li {
   display: inline-block;
@@ -71,9 +100,39 @@ h1 {
 .projects li:last-child {
   border-right: 0; }
 
+.btn-style {
+  width: 200px;
+  height: 50px;
+  border: 3px solid #6cc091;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #6cc091;
+  letter-spacing: 3px;
+  font-size: 1.1em;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; }
+
+.btn-style:hover {
+  background: rgba(108, 192, 145, 0.1); }
+
+.banner-footer .btn-style {
+  margin: 40px 0; }
+
+.main {
+  margin-top: 50px; }
+
+.main h3 {
+  font-size: 2.5em;
+  color: #555; }
+
+.main p {
+  font-size: 1.5em;
+  color: #9a9a9a; }
+
 /*  Media Queries     */
 @media (max-width: 600px) {
   .menu {
     display: none; }
   .menu-bars {
-    display: block; } }
+    display: block; }
+  .projects li {
+    border: none; } }
